@@ -1,18 +1,25 @@
 # FinLingo AI
 
-A static multilingual AI-style website for learning and translating finance jargon across industries.
+Functional multilingual finance jargon website (static HTML/CSS/JS).
 
-## Features
+## What it does now
 
-- Translate finance terms across 10 languages.
-- Industry contexts: Banking, Investment, Insurance, Accounting, Corporate Finance, and Fintech.
-- Built-in jargon explanations and related-term suggestions.
-- Pure HTML/CSS/JS (no build tools required).
+- Works immediately in browser (no backend needed).
+- Supports **10 languages**.
+- Includes **24 finance jargons** across:
+  - Banking
+  - Investment
+  - Insurance
+  - Accounting
+  - Corporate Finance
+  - Fintech
+- Provides:
+  - Translate + explain flow
+  - Industry-based glossary view
+  - Related term suggestions
+  - Website UI language switch (core copy)
 
 ## Run locally
 
 ```bash
 python -m http.server 8080
-```
-
-Open `http://localhost:8080`.
